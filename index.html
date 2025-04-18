@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lilian Rodrigues Ferreira de Melo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      color: #111;
+      background-color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      position: relative;
+      background-image: url('photo.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      position: relative;
+      z-index: 2;
+    }
+    nav {
+      background-color: #fff;
+      padding: 1em;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+    nav a {
+      margin: 0 1em;
+      text-decoration: none;
+      color: #333;
+    }
+    nav a:hover {
+      color: #000;
+      text-decoration: underline;
+    }
+    .section {
+      scroll-margin-top: 70px;
+      padding: 2em;
+    }
+    .profile-photo {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      display: block;
+      margin: 1em auto;
+      object-fit: cover;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      padding: 2em 1em;
+      border-top: 1px solid #eee;
+    }
+    a {
+      color: #333;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5em;
+      justify-content: center;
+      margin-top: 1em;
+    }
+    .tag {
+      padding: 0.4em 0.8em;
+      background: #f0f0f0;
+      border-radius: 20px;
+    }
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1em;
+    }
+    .photo-grid img {
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lilian Rodrigues Ferreira de Melo</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#cv">CV</a>
+    <a href="#photos">Photos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="section" id="about">
+    <h2>About</h2>
+    <img src="photo2.jpg" alt="Lilian Rodrigues Ferreira de Melo" class="profile-photo" />
+    <p>I am an evolutionary ecologist interested in ecological interactions, pollination systems, and the evolution of floral traits. Currently, I am a postdoctoral researcher at Uppsala University in the lab of Prof. Mario Vallejo-Marin. My work focuses on how pollinator behavior influences pollen transfer patterns and male reproductive success in buzz-pollinated species. I design and conduct controlled experiments in flight arenas to observe and record bee interactions with Solanum flowers, providi...
+    <p><strong>Education</strong></p>
+    <ul>
+      <li><strong>2019 - 2023</strong> PhD in Ecology, Conservation and Biodiversity. Federal University of Uberlandia, Brazil</li>
+      <li><strong>2017 - 2019</strong> Master's in Ecology and Conservation. Federal University of Uberlandia, Brazil</li>
+      <li><strong>2012 - 2016</strong> Bachelor of Biological Sciences. Federal University of Uberlandia, Brazil</li>
+    </ul>
+  </div>
+
+  <div class="section" id="research">
+    <h2>Research</h2>
+    <p>I investigate how bee behavior during floral visits influences pollen movement and male fitness in buzz-pollinated species, using flight arena experiments and detailed pollination tracking methods.</p>
+    <div class="tags">
+      <div class="tag">Male fitness 🌱</div>
+      <div class="tag">Floral evolution 🌸</div>
+      <div class="tag">Pollinator behavior 🐝</div>
+    </div>
+  </div>
+
+  <div class="section" id="publications">
+    <h2>Publications</h2>
+    <ol>
+      <li>Barônio GJ; Guimarães BMC; Oliveira LC; Melo, LRF; Antunes PR; Cardoso RKOA; Araújo TN. (2018). <strong>Between flowers and visitors: strategies for providing and collecting floral resources.</strong> <em>Oecologia Australis</em> v.22, 390-409. <a href="https://doi.org/10.4257/oeco.2018.2204.04" target="_blank">link</a></li>
+      <li>Melo LRF; Guimarães BMC; Barônio GJ; Oliveira LC; Cardoso RKOA; Araújo TN; Telles FJ. (2018). <strong>How bees perceive flowers and why this is important?</strong> <em>Oecologia Australis</em> v.22, 362-389. <a href="https://doi.org/10.4257/oeco.2018.2204.03" target="_blank">link</a></li>
+      <li>Melo LRF; Vasconcelos T; Reginato M; Caetano APS; Brito VLG. (2021). <strong>Evolution of stamen dimetrism in Melastomataceae, a large radiation of pollen flowers.</strong> <em>Perspectives in Plant Ecology, Evolution and Systematics</em> v.48, 125589. <a href="https://doi.org/10.1016/j.ppees.2021.125589" target="_blank">link</a></li>
+      <li>Melo LRF; Vasconcelos TNC; Caetano APS; Brito VLG. (2022). <strong>Stamen Diversity in Melastomataceae: Morphology, Color, and Function.</strong> In <em>Systematics, Evolution, and Ecology of Melastomataceae</em>, Springer. <a href="https://doi.org/10.1007/978-3-030-99742-7_27" target="_blank">link</a></li>
+      <li>Reginato M, Ordónez-parra CA, Messeder JVS, Brito VLG, Dellinger A, Kriebel R, Melo LRF, et al. (2024). <strong>MelastomaTRAITs 1.0: A Database of Functional Traits in Melastomataceae.</strong> <em>Ecology</em> 105(6): e4308. <a href="https://doi.org/10.1002/ecy.4308" target="_blank">link</a></li>
+      <li>Anderson B, et al. including Melo LRF. (2024). <strong>Pollen Wars: Explosive Pollination Removes Pollen Deposited from Previously Visited Flowers.</strong> <em>Am Nat.</em> Dec 204(6):616-625. <a href="https://doi.org/10.1086/732797" target="_blank">link</a></li>
+    </ol>
+  </div>
+
+  <div class="section" id="cv">
+    <h2>CV</h2>
+    <p>You can download my full curriculum vitae in PDF format below:</p>
+    <p><a href="CV_Lilian_Melo.pdf" download>Download CV (PDF)</a></p>
+  </div>
+
+  <div class="section" id="photos">
+    <h2>Photos</h2>
+    <p>A glimpse into my fieldwork, experiments, and scientific journey.</p>
+    <div class="photo-grid">
+      <img src="photo1.jpg" alt="Photo 1" />
+      <img src="photo2.jpg" alt="Photo 2" />
+      <img src="photo3.jpg" alt="Photo 3" />
+      <img src="photo4.jpg" alt="Photo 4" />
+      <img src="photo5.jpg" alt="Photo 5" />
+      <img src="photo6.jpg" alt="Photo 6" />
+      <img src="photo7.jpg" alt="Photo 7" />
+      <img src="photo8.jpg" alt="Photo 8" />
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: lilian.melo@ebc.uu.se</p>
+    <p>ORCID: <a href="https://orcid.org/0000-0002-0472-9101" target="_blank">https://orcid.org/0000-0002-0472-9101</a></p>
+    <p>ResearchGate: <a href="https://www.researchgate.net/profile/Lilian-Melo-8?ev=hdr_xprf" target="_blank">Profile</a></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Lilian Rodrigues Ferreira de Melo</p>
+  </footer>
+</body>
+</html>
